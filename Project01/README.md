@@ -18,7 +18,7 @@ Execute the test suite and revenue verification script in a clean virtual enviro
 
 ```bash
 # Clone repository & set up environment
-git clone https://github.com/iitgn-c2/c2-build1-brief-c-group-4.git
+git clone https://github.com/sid627/IITGN-AI-ML/edit/main/Project01
 cd c2-build1-brief-c-group-4
 
 python -m venv .venv
