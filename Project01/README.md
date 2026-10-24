@@ -1,7 +1,3 @@
-Here is a polished, production-ready `README.md` layout formatted specifically for GitHub repository landing pages.
-
----
-
 # Kalpa Health — Build 1: Brief C (Money)
 
 > **Cohort 2** | PG Diploma in AI-ML & Agentic AI Engineering | IIT Gandhinagar
