@@ -2,7 +2,7 @@
 
 **Brief C · Money** — analysis-ready tables cleaned from the raw Kalpa Health data pack.
 Cleaning is **non-destructive**: original raw columns are kept, and cleaned columns are added
-alongside. Every decision and count is logged in [`_decisions_log.md`](./docs/decisions_log.md).
+alongside. Every decision and count is logged in [`_decisions_log.md`](./decisions_log.md).
 
 > ⚠️ **These CSVs are large** (up to ~258 MB) — above GitHub's 100 MB file limit — so the
 > data lives on Google Drive and is linked below.
