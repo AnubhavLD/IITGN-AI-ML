@@ -7,7 +7,7 @@ alongside. Every decision and count is logged in [`_decisions_log.md`](./decisio
 > ⚠️ **These CSVs are large** (up to ~258 MB) — above GitHub's 100 MB file limit — so the
 > data lives on Google Drive and is linked below.
 >
-> 📂 **[Download all cleaned files — Google Drive folder](https://drive.google.com/drive/folders/1phhkk5NmygkzlJgvM7i-9drZKhFVwp_S)**
+> 📂 **[Download all cleaned files — Google Drive folder](https://drive.google.com/drive/folders/1phhkk5NmygkzlJgvM7i-9drZKhFVwp_S?usp=sharing)**
 
 ---
 
