@@ -1,7 +1,5 @@
 # Approach Log — Group 4 — Brief C
 
-**Purpose:** Record engineering choices, alternatives considered, and the rationale and trade-offs behind each choice. The team should be prepared to defend the **Chosen** column during the panel review.
-
 | # | Component | Approaches Considered | Chosen | Rationale & Trade-offs | What Would Change Choice |
 |---|---|---|---|---|---|
 | **1** | **Payment Reference Normalization** | (a) Strip all non-alphanumeric characters.<br>(b) Regex match on standard format `INV-YYYY-NNNNNN`.<br>(c) Levenshtein fuzzy string distance matching. | **(b)** | Strict regex fixes missing hyphens and case errors without risk of pairing adjacent numerical IDs. Fuzzy matching risked corrupting distinct invoices. | If gateway notes contained freeform conversational text. |
