@@ -13,5 +13,3 @@
 | Label captured money banked | Separate batch bridge | Gateway capture and net settlement have different dates and cohorts | Clear cash stages | 562 batches balance; bank statement absent |
 | Hard-code a NO causal conclusion | Bounded accounting conclusion and explicit identification limits | No route or acquisition plan data exist | Avoid invented causes | Nova coverage break measured; indirect effects remain unidentified |
 | Native deck | Six-slide HTML and full speaker script | The brief requests a script; HTML is directly viewable and printable | Accessible local handoff | outputs/presentation.html and docs/presentation-script.md |
-
-Python owns heterogeneous loading, reference/time/money normalization, validation, exact arithmetic, orchestration and documentation. SQL independently expresses the grain-safe transforms, anti-joins, window audit and cash control from on-disk CSVs. PostgreSQL-compatible DDL is included but only DuckDB was executed. Plan measurements are recorded; indexes are workload candidates, not a proven performance benefit.
