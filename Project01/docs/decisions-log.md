@@ -13,10 +13,3 @@
 | **4** | Left Join Q2 Invoices to Payments | 79,246 | 79,246 | 0 | PASS (left-side row count preserved) | 79,246 rows | Pre-aggregate captured payments by normalized invoice reference to prevent join fan-out. |
 | **5** | Bridge Reconciliation | 79,246 | 79,246 | 0 | PASS (row count preserved) | ₹119,286,373.00 collected | Reported bridge: billed ₹132.85M − unpaid ₹11.11M − timing ₹2.98M + differences ₹0.53M ≈ collected ₹119.29M. Figures are rounded in this description. |
 
-## Validation Notes
-
-- **Source status:** Counts and monetary values above are transcribed from the supplied draft; they have not been independently verified against source files.
-- **Row conservation is not monetary reconciliation:** Passing `Rows In = Rows Kept + Rows Rejected` does not by itself prove that monetary totals reconcile or that joins are correct.
-- **Step 5 bridge needs exact component values:** The rounded components shown do not establish a sub-₹0.50 reconciliation tolerance. Validate the bridge using unrounded figures and document its exact residual.
-- **Timing classification:** Confirm that the timing component reflects observed post-quarter receipts or an explicitly defined, evidence-backed timing rule, rather than assuming recent invoices have been paid.
-- **Payment exclusions:** Preserve rejected payment attempts for traceability; assess other statuses (such as refunds) separately if present.
