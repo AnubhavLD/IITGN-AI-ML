@@ -35,6 +35,3 @@ alongside. Every decision and count is logged in [`_decisions_log.md`](./docs/de
 - **Dates unified** — bookings' two vendor formats (legacy `DD/MM/YYYY`, nova ISO + 05:30) merged to one `YYYY-MM-DD HH:MM:SS`.
 - **Statuses split** — captured vs failed gateway payments separated; rejected rows kept in audit files.
 - **Duplicates & bad rows removed** — exact duplicates and leaked header rows dropped, each into a `*_rejected` / `*_duplicates_removed` audit file.
-
-
-*Generated for IITGN Build Week 1 · Brief C · Group 4.*
