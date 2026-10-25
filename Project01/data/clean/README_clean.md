@@ -1,8 +1,8 @@
 # Kalpa Health — Cleaned Data (`data/clean`)
 
 **Brief C · Money** — analysis-ready tables cleaned from the raw Kalpa Health data pack.
-Cleaning is **non-destructive**: original raw columns are kept and cleaned columns are added
-alongside. Every decision and count is logged in [`_decisions_log.md`](./_decisions_log.md).
+Cleaning is **non-destructive**: original raw columns are kept, and cleaned columns are added
+alongside. Every decision and count is logged in [`_decisions_log.md`](./docs/decisions_log.md).
 
 > ⚠️ **These CSVs are large** (up to ~258 MB) — above GitHub's 100 MB file limit — so the
 > data lives on Google Drive and is linked below.
@@ -24,8 +24,6 @@ alongside. Every decision and count is logged in [`_decisions_log.md`](./_decisi
 | `payments_settlements_clean.csv` | Bank settlement batches; `amount`/`fees`/`tax` paise→rupees, epoch→IST | 562 | 88 KB | [⬇︎](https://drive.google.com/drive/folders/1phhkk5NmygkzlJgvM7i-9drZKhFVwp_S) |
 | `bookings_rejected.csv` | **Audit** — leaked header rows dropped from the source files | 21 | 4 KB | [⬇︎](https://drive.google.com/drive/folders/1phhkk5NmygkzlJgvM7i-9drZKhFVwp_S) |
 
-*Links currently point to the shared Drive folder; swap in each file's direct share link once uploaded.*
-
 ---
 
 ## Cleaning applied
@@ -38,9 +36,5 @@ alongside. Every decision and count is logged in [`_decisions_log.md`](./_decisi
 - **Statuses split** — captured vs failed gateway payments separated; rejected rows kept in audit files.
 - **Duplicates & bad rows removed** — exact duplicates and leaked header rows dropped, each into a `*_rejected` / `*_duplicates_removed` audit file.
 
-## Scope
-
-This README lists only the files **directly in** `data/clean`. The `analysis/` subfolder
-(Q2 baseline, invoice reconciliation, orphan payments) is **not** listed here.
 
 *Generated for IITGN Build Week 1 · Brief C · Group 4.*
